@@ -19,7 +19,7 @@
   <remote name="mender"      fetch="https://github.com/mendersoftware"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
-  <remote name="sm"          fetch="git@github.com:suburbanmarine"/>
+  <remote name="sm"          fetch="ssh://git@github.com:suburbanmarine"/>
 
   <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="fae9db3168dbff1b8c76fe9c6726a9687ff97514" upstream="2.18"/>
   <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="f66b182e2ff431b624dfc3a506d25dc8f1fc6db2" upstream="wrynose"/>
