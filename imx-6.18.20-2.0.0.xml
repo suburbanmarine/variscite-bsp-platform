@@ -19,6 +19,8 @@
   <remote name="mender"      fetch="https://github.com/mendersoftware"/>
   <remote name="variscite"   fetch="https://github.com/varigit"/>
 
+  <remote name="sm"          fetch="git@github.com:suburbanmarine"/>
+
   <project name="bitbake"                    remote="oe"            path="sources/bitbake"                    revision="fae9db3168dbff1b8c76fe9c6726a9687ff97514" upstream="2.18"/>
   <project name="openembedded-core"          remote="oe"            path="sources/openembedded-core"          revision="f66b182e2ff431b624dfc3a506d25dc8f1fc6db2" upstream="wrynose"/>
   <project name="meta-yocto"                 remote="yp"            path="sources/meta-yocto"                 revision="824795b885b25e074a2880fbcd54e1a6c875d47d" upstream="wrynose"/>
@@ -59,5 +61,7 @@
     <linkfile src="scripts/var-start-container.sh" dest="var-start-container.sh"/>
   </project>
   <project name="var-host-docker-containers" remote="variscite"     path="sources/var-host-docker-containers" revision="ffaea38c5e3b39151c5e89b043016168144c7d91" upstream="master"/>
+
+  <project name="meta-suburbanmarine" remote="sm" path="sources/meta-suburbanmarine" revision="25c1f251a6263e213554489cb4cdbf39ecba9ead" upstream="master"/>
 
 </manifest>
